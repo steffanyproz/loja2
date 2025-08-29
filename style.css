@@ -1,0 +1,116 @@
+/* Fundo */
+body {
+  font-family: Arial, sans-serif;
+  background: #fff0f5; /* rosinha claro */
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #fff0f5;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4a2c2a;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Banner */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px;
+}
+
+.banner-img img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.banner-text {
+  max-width: 400px;
+}
+
+.banner-text h1 {
+  font-size: 2rem;
+  color: #4a2c2a;
+  margin-bottom: 20px;
+}
+
+.btn-banner {
+  display: inline-block;
+  background: #c9a46d;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Benefícios */
+.beneficios {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 200px;
+}
+
+.card img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Sobre */
+.sobre {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.sobre h2 {
+  font-size: 2rem;
+  color: #e91e63;
+  margin-bottom: 20px;
+}
+
+.sobre p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #555;
+  line-height: 1.8;
+}
