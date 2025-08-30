@@ -1,3 +1,5 @@
+/* ===== ESTILOS GERAIS ===== */
+
 /* Fundo */
 body {
   font-family: Arial, sans-serif;
@@ -32,6 +34,8 @@ header {
   color: #333;
   font-weight: 500;
 }
+
+/* ===== ESTILOS DA PÁGINA INICIAL ===== */
 
 /* Banner */
 .banner {
@@ -113,4 +117,47 @@ header {
   margin: 0 auto;
   color: #555;
   line-height: 1.8;
+}
+
+/* ===== ESTILOS DA PÁGINA PRODUTOS ===== */
+.produtos {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.produtos h1 {
+  font-size: 2rem;
+  color: #e91e63;
+  margin-bottom: 40px;
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.grid-produtos .card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.grid-produtos img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.grid-produtos h3 {
+  margin-bottom: 8px;
+  color: #4a2c2a;
+}
+
+.grid-produtos p {
+  font-size: 0.95rem;
+  color: #555;
 }
