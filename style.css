@@ -1,6 +1,5 @@
-/* ===== ESTILOS GERAIS ===== */
 
-/* Fundo */
+
 body {
   font-family: Arial, sans-serif;
   background: #fff0f5; /* rosinha claro */
@@ -8,7 +7,7 @@ body {
   padding: 0;
 }
 
-/* Cabeçalho */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -35,9 +34,8 @@ header {
   font-weight: 500;
 }
 
-/* ===== ESTILOS DA PÁGINA INICIAL ===== */
 
-/* Banner */
+
 .banner {
   display: flex;
   align-items: center;
@@ -71,7 +69,7 @@ header {
   font-weight: bold;
 }
 
-/* Benefícios */
+
 .beneficios {
   display: flex;
   justify-content: center;
@@ -98,7 +96,7 @@ header {
   color: #333;
 }
 
-/* Sobre */
+
 .sobre {
   padding: 60px 20px;
   text-align: center;
@@ -119,7 +117,7 @@ header {
   line-height: 1.8;
 }
 
-/* ===== ESTILOS DA PÁGINA PRODUTOS ===== */
+
 .produtos {
   padding: 60px 20px;
   text-align: center;
@@ -160,4 +158,5 @@ header {
 .grid-produtos p {
   font-size: 0.95rem;
   color: #555;
+
 }
